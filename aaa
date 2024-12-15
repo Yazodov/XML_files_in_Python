@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<E2BMessage>
+    <IchIcsrMessageHeader>
+        <MessageType>...</MessageType>  
+        <MessageFormatVersion>...</MessageFormatVersion>  
+        <MessageFormatRelease>...</MessageFormatRelease>  
+        <MessageNumber>...</MessageNumber>
+        <SenderIdentifier>...</SenderIdentifier>
+        <ReceiverIdentifier>...</ReceiverIdentifier>
+        <MessageDate>...</MessageDate>  
+    </IchIcsrMessageHeader>
+
+    <CaseIdentification>
+        <SafetyReportVersionNumber>...</SafetyReportVersionNumber>  
+        <SafetyReportIdentifier>...</SafetyReportIdentifier>
+        <CountryOfOccurrence>...</CountryOfOccurrence> 
+        <TransmissionDateFormat>...</TransmissionDateFormat>
+        <TransmissionDate>...</TransmissionDate>
+        <ReportType>...</ReportType>  
+         <Seriousness>
+            <Serious>...</Serious>
+            <SeriousnessCriteria>...</SeriousnessCriteria>
+        </Seriousness>
+        <DateReportReceived format="DD-MM-YYYY">...</DateReportReceived>
+        <DateMostRecentInformationReceived format="DD-MM-YYYY">...</DateMostRecentInformationReceived>
+        <AdditionalAvailableDocumentsHeldbySender>
+            <AreDocumentsAvailable>...</AreDocumentsAvailable>
+            <DocumentsList>...</DocumentsList>
+            <FulfilltheExpeditedCriteria>...</FulfilltheExpeditedCriteria>
+        </AdditionalAvailableDocumentsHeldbySender>
+        <WorldwideUniqueCaseID>
+        <WorldwideUniqueCaseIdentificationNumber>…</WorldwideUniqueCaseIdentificationNumber>
+        <RegulatoryAuthorityCaseReportNumber>...</RegulatoryAuthorityCaseReportNumber>
+        <OtherCaseIdentifiers>
+            <OtherSenderCaseReportNumber>...</OtherSenderCaseReportNumber>
+            <OtherIdentifiersInPreviousTransmissions>...</OtherIdentifiersInPreviousTransmissions>
+        </OtherCaseIdentifiers>
+        <SourceoftheCaseIdentifier>...</SourceoftheCaseIdentifier>
+        <CaseIdentifiers>…</CaseIdentifiers>
+        <ReportNullification>...</ReportNullification>
+        <ReasonforNullification>...</ReasonforNullification>
+        <theCaseMedicallyConfirmed>...</theCaseMedicallyConfirmed>
+        </WorldwideUniqueCaseID>
+    </CaseIdentification>
+
+    <SourceInformation>
+        <PrimarySource>
+            <ReporterIdentifier>
+                <Title>...</Title>
+                <GivenName>...</GivenName>
+                <MiddleName>...</MiddleName>
+                <FamilyName>...</FamilyName>
+                <Organization>...</Organization>
+                <Department>...</Department>
+                <Address>
+                    <Street>...</Street>
+                    <City>...</City>
+                    <Country>...</Country>
+                    <PostalCode>...</PostalCode>
+                </Address>
+             <Qualification>...</Qualification>
+            </ReporterIdentifier>
+        </PrimarySource>
+    </SourceInformation>
+
+    <SenderReceiverInformation>
+        <Sender>
+            <Type>...</Type>
+            <Identifier>
+                <Organization>...</Organization>
+                <Department>...</Department>
+                <Title>...</Title>
+                <GivenName>...</GivenName>
+                <MiddleName>...</MiddleName>
+                <FamilyName>...</FamilyName>
+            </Identifier>
+
+            <Address>
+            <StreetAddress>...</StreetAddress>
+            <SenderCity>...</SenderCity>
+            <SenderPostCode>...</SenderPostCode>
+            <SenderCountryCode>...</SenderCountryCode>
+            <SenderTelephone>...</SenderTelephone>
+            <SenderTelephoneExtension>...</SenderTelephoneExtension>
+            <SenderTelephoneCode>...</SenderTelephoneCode>
+            <SenderFaxNumber>...</SenderFaxNumber>
+            <SenderFaxNumberExtension>...</SenderFaxNumberExtension>
+            <SenderFaxCountryCode>...</SenderFaxCountryCode>
+            <SenderPhone>...</SenderPhone>
+            <SenderEmail>...</SenderEmail>
+            </Address>
+        </Sender>
+
+        <Receiver>
+            <Type>...</Type>
+            <Identifier>
+                <Organization>...</Organization>
+                <Department>...</Department>
+                <Title>...</Title>
+                <GivenName>...</GivenName>
+                <MiddleName>...</MiddleName>
+                <FamilyName>...</FamilyName>
+            </Identifier>
+
+            <Address>
+            <StreetAddress>...</StreetAddress>
+            <ReceiverCity>...</ReceiverCity>
+            <ReceiverPostCode>...</ReceiverPostCode>
+            <ReceiverCountryCode>...</ReceiverCountryCode>
+            <ReceiverTelephone>...</ReceiverTelephone>
+            <ReceiverTelephoneExtension>...</ReceiverTelephoneExtension>
+            <ReceiverTelephoneCode>...</ReceiverTelephoneCode>
+            <ReceiverFaxNumber>...</ReceiverFaxNumber>
+            <ReceiverFaxNumberExtension>...</ReceiverFaxNumberExtension>
+            <ReceiverFaxCountryCode>...</ReceiverFaxCountryCode>
+            <ReceiverPhone>...</ReceiverPhone>
+            <ReceiverEmail>...</ReceiverEmail>
+            </Address>
+        </Receiver>
+
+    </SenderReceiverInformation>
+
+  <PatientCharacteristics> 
+           <Patient>               
+           <PatientID>...</PatientID>
+           <MedicalRecordNumber>...</MedicalRecordNumber>
+           <SpecialistRecordNumber>...</SpecialistRecordNumber>
+           <HospitalRecordNumber>...</HospitalRecordNumber>
+           <InvestigationNumber>...</InvestigationNumber>
+        </Patient>                 
+        <AgeInformation>                  
+           <DateOfBirth format="DD-MM-YYYY">...</DateOfBirth>
+           <AgeAtOnsetValue>...</AgeAtOnsetValue>                    
+           <AgeAtOnsetUnit>...</AgeAtOnsetUnit>
+           <GestationPeriodWhenReactionObservedintheFetusValue>...</GestationPeriodWhenReactionObservedintheFetusValue>
+           <GestationPeriodObservedintheFetusunitunit>...</GestationPeriodObservedintheFetusunitunit>
+           <PatientAgeGroup>...</PatientAgeGroup>
+           <Weight>...</Weight>
+           <Height>...</Height>
+           <Sex>...</Sex>
+           <LastMenstrualPeriodDate format="DD-MM-YYYY">...</LastMenstrualPeriodDate>
+        </AgeInformation>   
+                  
+      <RelevantMedicalHistoryandConcurrentConditions>     
+           <MedDRAVersionforMedicalHistory>...</MedDRAVersionforMedicalHistory>
+           <StructuredInformationMedDRACode>...</StructuredInformationMedDRACode>
+           <StartDate format="DD-MM-YYYY">...</StartDate>
+           <Continuing>...</Continuing>
+           <EndDate format="DD-MM-YYYY">...</EndDate>
+           <Comments>...</Comments>
+           <ConcurrentConditions>...</ConcurrentConditions>
+       </RelevantMedicalHistoryandConcurrentConditions>      
+             
+    </PatientCharacteristics> 
+
+      <RelevantPastDrugHistory>                 
+           <NameofDrugasReported>...</NameofDrugasReported>
+           <StartDate format="DD-MM-YYYY">...</StartDate>
+           <EndDate format="DD-MM-YYYY">...</EndDate>
+           <MedDRAVersionforIndication>...</MedDRAVersionforIndication>
+           <Indication>...</Indication>
+           <MedDRAVersionforReaction>...</MedDRAVersionforReaction>
+           <Reaction>...</Reaction>
+       </RelevantPastDrugHistory> 
+
+
+    <ParentChildFetusReportInformationConcerningtheParent>
+         <ParentIdentification>...</ParentIdentification>
+            <ParentAgeInformation>
+            <DateofBirthOfParent format="DD-MM-YYYY">...</DateofBirthOfParent>
+            <AgeofParentValue>...</AgeofParentValue>
+            <AgeofParentUnit>...</AgeofParentUnit>
+            <LastMenstrualPeriodDate format="DD-MM-YYYY">...</LastMenstrualPeriodDate>
+            <WeightOfParent>...</WeightOfParent>
+            <HeightOfParent>...</HeightOfParent>
+            <SexOfParent>...</SexOfParent>
+          </ParentAgeInformation>
+    </ParentChildFetusReportInformationConcerningtheParent>
+
+    <RelevantMedicalHistoryandConcurrentConditionsofParent>
+            <MedDRAVersionforParentMedicalHistory>...</MedDRAVersionforParentMedicalHistory>
+            <StructuredInformation>...</StructuredInformation>
+            <StartDate format="DD-MM-YYYY">...</StartDate>
+            <StartDate>...</StartDate>
+            <Continuing>...</Continuing>
+            <EndDate format="DD-MM-YYYY">...</EndDate>
+            <Comments>...</Comments>
+            <RelevantMedicalHistoryandConcurrentConditionsofParent>...</RelevantMedicalHistoryandConcurrentConditionsofParent>
+    </RelevantMedicalHistoryandConcurrentConditionsofParent>
+
+     <RelevantPastDrugHistory>
+           <NameofDrugasReported>...</NameofDrugasReported>
+           <StartDate format="DD-MM-YYYY">..</StartDate>
+           <EndDate format="DD-MM-YYYY">...</EndDate>
+           <MedDRAVersionforIndication>...</MedDRAVersionforIndication>
+           <Indication>...</Indication>
+           <MedDRAVersionforReaction>...</MedDRAVersionforReaction>
+           <Reactionsifanyandknown>…</Reactionsifanyandknown>
+    </RelevantPastDrugHistory>
+
+
+       <InCaseOfDeath>   
+           <DateOfDeath format="DD-MM-YYYY">...</DateOfDeath>
+           <MedDRAVersionForReportedCauseOfDeath>...</MedDRAVersionForReportedCauseOfDeath>
+           <ReportedCauseOfDeath>...</ReportedCauseOfDeath>
+           <WasAutopsyDone>...</WasAutopsyDone>
+           <MedDRAVersionForAutopsydeterminedCauseOfDeath>...</MedDRAVersionForAutopsydeterminedCauseOfDeath>
+           <AutopsyDeterminedCauseOfDeathRepeatasnecessary>...</AutopsyDeterminedCauseOfDeathRepeatasnecessary>
+       </InCaseOfDeath> 
+
+      <ReactionEvent>
+           <ReactionEventasReportedbyPrimarySource>...</ReactionEventasReportedbyPrimarySource>
+           <MedDRAVersionforReactionEventTermLLT>...</MedDRAVersionforReactionEventTermLLT>
+           <ReactionEventinMedDRATerminologyLLT>...</ReactionEventinMedDRATerminologyLLT>
+           <MedDRAVersionforReactionEventTermPT>...</MedDRAVersionforReactionEventTermPT>
+           <ReactionEventMedDRATermPT>...</ReactionEventMedDRATermPT>
+           <TermHighlightedbytheReporter>...</TermHighlightedbytheReporter>
+           <DateofStartofReactionEvent format="DD-MM-YYYY">...</DateofStartofReactionEvent>
+           <DateofEndofReactionEvent format="DD-MM-YYYY">...</DateofEndofReactionEvent>
+           <DurationofReactionEvent>...</DurationofReactionEvent>
+           <ReactionEventDurationUnit>...</ReactionEventDurationUnit>
+           <TimeIntervalBetweenBeginningofSuspectDrugAdministrationandStartOfReactionEvent>...</TimeIntervalBetweenBeginningofSuspectDrugAdministrationandStartOfReactionEvent>
+           <TimeIntervalUnitbetweenSuspectDrugAdministrationandStartOfReactionEventTimeIntervalUnit>...</TimeIntervalUnitbetweenSuspectDrugAdministrationandStartOfReactionEventTimeIntervalUnit>
+           <TimeIntervalBetweenLastDoseandStartOfReactionEvent>...</TimeIntervalBetweenLastDoseandStartOfReactionEvent>
+           <TimeIntervalBetweenLastDoseandStartOfReactionEventUnit>...</TimeIntervalBetweenLastDoseandStartOfReactionEventUnit>
+           <OutcomeOfReaction>...</OutcomeOfReaction>
+       </ReactionEvent>
+
+
+  <ResultsofTestsandProceduresRelevanttotheInvestigationofthePatient>
+          <StructuredInformation>
+          <Date format="DD-MM-YYYY">...</Date>
+          <Test>...</Test>
+          <Unit>...</Unit>
+          <Result>...</Result>
+          <NormalLowRange>...</NormalLowRange>
+          <NormalHighRange>...</NormalHighRange>
+          <MoreInformationAvailable>...</MoreInformationAvailable>
+          <ResultsofTestsandProceduresRelevanttotheInvestigationOfthePatient>...</ResultsofTestsandProceduresRelevanttotheInvestigationOfthePatient>
+        </StructuredInformation>
+  </ResultsofTestsandProceduresRelevanttotheInvestigationofthePatient>
+
+    <DrugInformation>
+      <CharacterizationofDrugRole>...</CharacterizationofDrugRole>
+      <DrugIdentification>
+         <ProprietaryMedicinalProductName>...</ProprietaryMedicinalProductName>
+         <ActiveDrugSubstanceNames>...</ActiveDrugSubstanceNames>
+         <IdentificationoftheCountryWheretheDrugWasObtained>...</IdentificationoftheCountryWheretheDrugWasObtained>
+      </DrugIdentification>
+      <HolderandAuthorizationApplicationNumberofDrug>
+         <AuthorizationApplicationNumber>...</AuthorizationApplicationNumber>
+         <CountryofAuthorizationApplication>...</CountryofAuthorizationApplication>
+         <NameofHolderApplicant>...</NameofHolderApplicant>
+      </HolderandAuthorizationApplicationNumberofDrug>
+
+      <StructuredDosageInformation>
+         <DoseNumber>...</DoseNumber>
+         <DoseUnit>...</DoseUnit>
+         <NumberofSeparateDosages>...</NumberofSeparateDosages>
+         <NumberofUnitsintheInterval>...</NumberofUnitsintheInterval>
+         <DefinitionoftheInterval>...</DefinitionoftheInterval>
+         <DateofStartofDrug format="DD-MM-YYYY">...</DateofStartofDrug>
+         <DateofLastAdministration format="DD-MM-YYYY">...</DateofLastAdministration>
+         <DurationofDrugAdministration>...</DurationofDrugAdministration>
+         <DurationofDrugAdministrationTimeunit>...</DurationofDrugAdministrationTimeunit>
+         <BatchLotNumber>...</BatchLotNumber>
+         <DosageText>...</DosageText>
+         <PharmaceuticalFormDosageform>...</PharmaceuticalFormDosageform>
+         <RouteofAdministration>...</RouteofAdministration>
+         <ParentRouteofAdministrationIncaseOfAparentChildFoetusReport>...</ParentRouteofAdministrationIncaseOfAparentChildFoetusReport>
+         <CumulativeDosetoFirstReactionNumber>...</CumulativeDosetoFirstReactionNumber>
+         <CumulativeDosetoFirstReactionUnit>...</CumulativeDosetoFirstReactionUnit>
+         <GestationPeriodatTimeofExposure>...</GestationPeriodatTimeofExposure>
+         <GestationPeriodatTimeofExposure>...</GestationPeriodatTimeofExposure>
+         <MedDRAVersionforIndication>...</MedDRAVersionforIndication>
+         <IndicationforUseintheCase>...</IndicationforUseintheCase>
+         <ActionTakenwithDrug>...</ActionTakenwithDrug>
+      </StructuredDosageInformation>
+
+      <EffectofRechallengeForSuspectDrugOnly>
+         <DidReactionRecuronReadministration>...</DidReactionRecuronReadministration>
+         <MedDRAVersionforReactionEventRecurred>...</MedDRAVersionforReactionEventRecurred>
+         <WhichReactionEventRecurred>...</WhichReactionEventRecurred>
+      </EffectofRechallengeForSuspectDrugOnly>
+    </DrugInformation>
+
+    <RelatednessofDrugtoReaction>
+         <MedDRAVersionforReactionAssessed>...</MedDRAVersionforReactionAssessed>
+         <ReactionAssessed>...</ReactionAssessed>
+         <SourceofAssessment>...</SourceofAssessment>
+         <MethodofAssessment>...</MethodofAssessment>
+         <Result>...</Result>
+       <TimeIntervalbetweenDrugAdministrationandStartofReactionEvent>
+          <TimeIntervalbetweenBeginningofDrugAdministrationandStartofReactionEvent>...</TimeIntervalbetweenBeginningofDrugAdministrationandStartofReactionEvent>
+          <TimeIntervalbetweenBeginningofDrugAdministrationandStartofReactionEventTimeUnit>...</TimeIntervalbetweenBeginningofDrugAdministrationandStartofReactionEventTimeUnit>
+          <TimeIntervalbetweenLastDoseofDrugandStartofReactionEvent>...</TimeIntervalbetweenLastDoseofDrugandStartofReactionEvent>
+          <TimeIntervalbetweenLastDoseofDrugandStartofReactionEventTimeUnit>...</TimeIntervalbetweenLastDoseofDrugandStartofReactionEventTimeUnit>
+          <DidReactionRecuronReadministration>...</DidReactionRecuronReadministration>
+          <AdditionalInformationonDrug>...</AdditionalInformationonDrug>
+       </TimeIntervalbetweenDrugAdministrationandStartofReactionEvent>
+     </RelatednessofDrugtoReaction>
+
+   <NarrativeCaseSummaryandFurtherInformation>
+        <CaseNarrativeIncludingClinicalCourseTherapeuticMeasuresOutcomeandAdditionalRelevantInformation>...</CaseNarrativeIncludingClinicalCourseTherapeuticMeasuresOutcomeandAdditionalRelevantInformation>
+        <ReporterComments>...</ReporterComments>
+        <MedDRAVersionforSenderDiagnosis>...</MedDRAVersionforSenderDiagnosis>
+        <SenderDiagnosis>...</SenderDiagnosis>
+        <SenderComments>...</SenderComments>
+   </NarrativeCaseSummaryandFurtherInformation>
+
+
+    -->
+</E2BMessage>
